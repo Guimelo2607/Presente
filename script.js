@@ -5,7 +5,7 @@ const diff = Math.floor((hoje - inicioNamoro) / (1000 * 60 * 60 * 24));
 document.getElementById("dias").innerText = `${diff} dias`;
 
 // Slideshow/Users/guilhermemelo/Documents/programação /dia dos namorados
-const fotos = ["/Users/guilhermemelo/Documents/programação /dia dos namorados /img/img1.PNG", "/Users/guilhermemelo/Documents/programação /dia dos namorados /img/img2.JPG", "/Users/guilhermemelo/Documents/programação /dia dos namorados /img/img3.JPG"];
+const fotos = ["/img/img1.PNG", "/img/img2.JPG", "/img/img3.JPG"];
 let index = 0;
 setInterval(() => {
   index = (index + 1) % fotos.length;
